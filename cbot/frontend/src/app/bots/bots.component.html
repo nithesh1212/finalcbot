@@ -1,0 +1,27 @@
+<div class="header" fxLayout="row" fxLayoutAlign=" center">
+    <h1 fxFlex>List of Bots 
+      <button mat-mini-fab (click)="createBot()">
+        <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+      </button>
+    </h1>
+  
+  </div>
+  
+  
+  
+  <mat-card>
+    <div *ngFor="let bot of bots" fxLayout="row" fxLayoutAlign=" center" class="intent-container" style="height: 40px;">
+      <div fxFlex="60" style="float: left; padding: 10px">
+        {{bot.botName}}
+        
+      </div>
+      <div fxFlex="40" style="float: right;">
+          <button mat-button (click)="ConfigureBot(bot.botId)" color="primary">Click Here to Configure Bot</button>
+          
+         
+        </div>
+      
+    </div>
+    <br>
+  
+  </mat-card>
