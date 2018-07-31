@@ -2,6 +2,7 @@ import { Component, OnInit, Input,AfterViewChecked, ElementRef, ViewChild } from
 import { ChatService } from '../../services/chat.service';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 
 @Component({
   // tslint:disable-next-line:component-selector
@@ -30,7 +31,7 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
 export class ChatComponent implements OnInit {
   chatInitial;
   chatCurrent;
-  
+  botId;
   messages: Message[] = [];
   prettyChatCurrent;
 
@@ -40,16 +41,19 @@ export class ChatComponent implements OnInit {
 
   constructor(
     public fb: FormBuilder,
-    public chatService: ChatService) {
+    public chatService: ChatService,  private _activatedRoute: ActivatedRoute) {
 
     this.chatFormFields = {
       input: [''],
     };
     this.chatForm = this.fb.group(this.chatFormFields);
+   
 
   }
 
   ngOnInit() {
+    this._activatedRoute.params.subscribe(PARAMETERS=> this.botId= PARAMETERS.botId);
+    console.log(this.botId);
     this.chatInitial = {
       'currentNode': '',
       'complete': null, 'context': {},
@@ -58,7 +62,9 @@ export class ChatComponent implements OnInit {
       'speechResponse': '',
       'intent': {},
       'input': 'init_conversation',
-      'missingParameters': []
+      'missingParameters': [],
+      'role':"",
+      'botId' : this.botId
     };
 
     this.chatService.converse(this.chatInitial)

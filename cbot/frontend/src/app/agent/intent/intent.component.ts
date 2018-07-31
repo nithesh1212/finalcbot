@@ -157,7 +157,7 @@ export class IntentComponent implements OnInit {
     this.intentService.saveIntent(form)
       .then(c => {
         this.message = 'Intent created!';
-        this._router.navigate(["/agent/default/edit-intent", c["_id"]])
+        this._router.navigate(["/bot/"+this.botId])
       })
   }
 

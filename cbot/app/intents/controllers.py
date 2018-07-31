@@ -154,26 +154,27 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower()
 
 
-@intents.route('/import', methods=['POST'])
-def import_intents():
+@intents.route('/import/<botId>', methods=['POST'])
+def import_intents(botId):
     """
     Convert json files to Intents objects and insert to MongoDB
     :return:
     """
     # check if the post request has the file part
+    botId = botId
     if 'file' not in request.files:
         abort(400, 'No file part')
     json_file = request.files['file']
     if(allowed_file(json_file.filename)) == "json":
-     intents = import_json(json_file)
+     intents = import_json(json_file, botId)
     else:
-     intents = import_csv(json_file)
+     intents = import_csv(json_file, botId)
 
 
     return build_response.build_json("intents_created")
 
 
-def import_json(json_file):
+def import_json(json_file,botId):
     print("in json_file")
     json_data = json_file.read()
     print(json_data)
@@ -190,7 +191,7 @@ def import_json(json_file):
     return creates_intents
 import csv
 UPLOAD_FOLDER = './UploadFiles'
-def import_csv(json_file):
+def import_csv(json_file, botId):
     file = json_file
     #filename = json_file.filename
     print("File Name", file.filename)
@@ -200,14 +201,14 @@ def import_csv(json_file):
     csvfile = open(UPLOAD_FOLDER + '/' + file.filename, 'r', encoding='utf-8', errors='ignore')
     reader = csv.DictReader(csvfile)
     # print(reader)
-    header = ["Question", "Answer", "BotId"]
+    header = ["Question", "Answer"]
     for each in reader:
         row = {}
         for field in header:
             row[field] = each[field]
             trainingData=[]
             trainingData.append({'text' : row['Question'], 'entities' : " "})
-        csvStories = Intent(name=row['Question'], intentId='fileUpload', userDefined='true',apiTrigger=False,speechResponse=row['Answer'],  trainingData = trainingData, botId = row['BotId']);
+        csvStories = Intent(name=row['Question'], intentId='fileUpload', userDefined='true',apiTrigger=False,speechResponse=row['Answer'],  trainingData = trainingData, botId = botId);
 
         csvStories.save();
 

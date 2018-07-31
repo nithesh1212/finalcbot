@@ -58,7 +58,7 @@ export class IntentsComponent implements OnInit {
 
   trainModels() {
     this.coreService.displayLoader(true);
-    this.trainingService.trainModels().then((s: any) => {
+    this.trainingService.trainModels(this.botId).then((s: any) => {
       this.coreService.displayLoader(false);
     });
   }

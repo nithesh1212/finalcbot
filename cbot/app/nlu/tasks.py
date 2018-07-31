@@ -8,7 +8,7 @@ from app.nlu.intent_classifer import IntentClassifier
 from app import my_signals
 model_updated_signal = my_signals.signal('model-updated')
 
-def train_models():
+def train_models(botId):
     """
     Initiate NER and Intent Classification training
     :return:
@@ -20,15 +20,15 @@ def train_models():
         raise Exception("NO_DATA")
 
     # train intent classifier on all intents
-    train_intent_classifier(intents)
+    train_intent_classifier(intents,botId)
 
     # train ner model for each Stories
     for intent in intents:
         train_all_ner(str(intent.id), intent.trainingData)
 
-    model_updated_signal.send(app,message="Training Completed.")
+    model_updated_signal.send(app,botId=botId,)
 
-def train_intent_classifier(intents):
+def train_intent_classifier(intents,botId):
     """
     Train intent classifier model
     :param intents:
@@ -45,7 +45,8 @@ def train_intent_classifier(intents):
             y.append(str(intent.id))
 
     PATH = "{}/{}".format(app.config["MODELS_DIR"],
-                          app.config["INTENT_MODEL_NAME"])
+                         botId+'.model')
+    print(PATH)
     intent_classifier = IntentClassifier()
     intent_classifier.train(X,
                             y,

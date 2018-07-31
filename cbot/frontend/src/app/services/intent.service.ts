@@ -44,11 +44,11 @@ export class IntentService {
     return this.http.delete(environment.applicationUrl + `intents/${id}`, {}).toPromise();
   }
 
-  importIntents(fileToUpload: File){
+  importIntents(fileToUpload: File, botId){
     const formData: FormData = new FormData();
     formData.append('file', fileToUpload, fileToUpload.name);
     return this.http
-      .post(environment.applicationUrl +"intents/import", formData).toPromise();
+      .post(environment.applicationUrl +`intents/import/${botId}`, formData).toPromise();
   }
 
 }

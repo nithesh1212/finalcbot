@@ -40,7 +40,7 @@ chat() {
   console.log("In chat")
   //var botid = {"botId" : this.botId};
   console.log(this.botId)
-  this._router.navigate(["/bot/"+this.botId+"/chat"]);
+  this._router.navigate(["/bot/"+this.botId+"/chat/"+this.botId]);
 
 }
 
@@ -48,7 +48,7 @@ fileUpload() {
   console.log("In chat")
   //var botid = {"botId" : this.botId};
   console.log(this.botId)
-  this._router.navigate(["/bot/"+this.botId+"/settings"]);
+  this._router.navigate(["/bot/"+this.botId+"/settings/"+this.botId]);
 
 }
 }

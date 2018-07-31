@@ -1,0 +1,2260 @@
+Question,Answer,BotId
+Jenkins Multi-Master ,"Jenkins(ci.cisco.com) is been split into five robust masters. All the existing jobs are going to be distributed across five Jenkins masters.
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster
+ 
+",5b3470df8982d029e48a4c0d
+what is JMM,"Jenkins(ci.cisco.com) is been split into five robust masters. All the existing jobs are going to be distributed across five Jenkins masters.
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster
+ 
+",5b3470df8982d029e48a4c0d
+Bnefits of Jenkins Multi Master,"    Architected to scale for horizontal growth
+•     Shorter Job queue waits
+•     Improved UI performance
+•     Better job distribution
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster",5b3470df8982d029e48a4c0d
+benefits of JMM,"    Architected to scale for horizontal growth
+•     Shorter Job queue waits
+•     Improved UI performance
+•     Better job distribution
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster",5b3470df8982d029e48a4c0d
+What is going to change due to JMM,"   Jenkins environment url will change. However, this change should be seamless for you as url redirection will be enabled to point to the new Jenkins environment.
+•    All the existing jobs will be migrated to the new environment.
+•    New jobs after cutover date will be automatically created in the new environment
+•    Current ci.cisco.com will be kept down.
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster
+",5b3470df8982d029e48a4c0d
+What is going to change due to Jenkins Multi Master,"   Jenkins environment url will change. However, this change should be seamless for you as url redirection will be enabled to point to the new Jenkins environment.
+•    All the existing jobs will be migrated to the new environment.
+•    New jobs after cutover date will be automatically created in the new environment
+•    Current ci.cisco.com will be kept down.
+Please visit this URL for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_MultiMaster
+",5b3470df8982d029e48a4c0d
+How to enable access to Jenkins?,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+How to Get access to jenkins,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+Access to Jenkins,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+Jenkins Access,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+Permission to Jenkins,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+Jenkins Permission,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+Jenkins Enablement,"Access to Jenkins is provisioned on Project level, so when you are requesting for Jenkins access, make sure you have a working project available in Jenkins before you request for the access. If you are acting Admin to that project, you can provide access to your team-mates following below steps:
+1.Go to your Jenkins project
+2.Click on Groups option on left hand side column of the page
+3.Click on the required available group options (You will have groups for Admin, Developers, QA Testers etc)
+4.Add User/Group (AD Groups) to the list and save
+",5b3470df8982d029e48a4c0d
+How to create new Projects in Jenkins?,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+Creation of new Projects in Jenkins,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+Create new Projects in Jenkins,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+Creating a project in Jenkins,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+New Project creation in jenkins,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+Proj creation in jenkins,Please refer this document https://cisco.jiveon.com/docs/DOC-1587954,5b3470df8982d029e48a4c0d
+How do I get new plugin installed in jenkins,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+How to install new plugin in jenkins,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+Installation of plugin in jenkins,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+plugin installation in jenkins,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+In jenkins how to install new plugin?,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+Install plugin in jenkins,"Best approach will be to open a case in srm.cisco.com in Service Now under ""Software Development Automation"", and provide the necessary details as below:
+--> Why you need it
+--> What's the advantage of having this in your project
+--> It's criticality
+Once the case is submitted  support team will revert with  updates on the same.",5b3470df8982d029e48a4c0d
+Build is failing due to 3rd party libraries missing in repository,Need to upload the respective jars in to artifactory and add the respective details(artifactory id and version number in pom.xml).Please find link:https://cisco.jiveon.com/docs/DOC-45943,5b3470df8982d029e48a4c0d
+Build is failing due to third party libraries missing in repository,Need to upload the respective jars in to artifactory and add the respective details(artifactory id and version number in pom.xml).Please find link:https://cisco.jiveon.com/docs/DOC-45943,5b3470df8982d029e48a4c0d
+How to get third party libraries ,Need to upload the respective jars in to artifactory and add the respective details(artifactory id and version number in pom.xml).Please find link:https://cisco.jiveon.com/docs/DOC-45943,5b3470df8982d029e48a4c0d
+How to manage third party libraries missing in repository,Need to upload the respective jars in to artifactory and add the respective details(artifactory id and version number in pom.xml).Please find link:https://cisco.jiveon.com/docs/DOC-45943,5b3470df8982d029e48a4c0d
+Third party libraries missing in repository,Need to upload the respective jars in to artifactory and add the respective details(artifactory id and version number in pom.xml).Please find link:https://cisco.jiveon.com/docs/DOC-45943,5b3470df8982d029e48a4c0d
+What are the steps to create tar.gz file as part of build.,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+Steps to create tar.gz file ,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+create tar.gz file ,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+Creation of tar.gz file during build,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+Creating tar.gz file while build,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+tar.gz file creation steps,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+how can I create tar.gz file as a part of build,"Resolution:
+
+Step 1 : Add maven-assembly-plugin in pom.xml file as below
+
+<plugin>
+
+         <groupId>org.apache.maven.plugins</groupId>
+
+         <artifactId>maven-assembly-plugin</artifactId>
+
+         <version>2.4</version>
+
+         <executions>
+
+                 <execution>
+
+                         <phase>package</phase>
+
+                         <goals>
+
+                                 <goal>single</goal>
+
+                         </goals>
+
+                 </execution>
+
+         </executions>
+
+         <configuration>
+
+                 <appendAssemblyId>false</appendAssemblyId>
+
+                 <descriptors>
+
+                         <descriptor>assembly.xml</descriptor>
+
+                 </descriptors>
+
+         </configuration>
+
+  </plugin>
+
+ 
+
+ 
+
+Step 2 : Create or need to have assembly.xml file, Below is the content of assembly.xml file.
+
+<?xml version=""1.0""?>
+
+     <assembly>
+
+          <id>${project.version}</id>
+
+          <formats>
+
+               <format>tar.gz</format>
+
+          </formats>
+
+          <files>
+
+            <file>
+
+                 <source>pom.xml</source>
+
+                 <outputDirectory>/package</outputDirectory>
+
+            </file>
+
+          </files>
+
+         <includeBaseDirectory>false</includeBaseDirectory>
+
+          <fileSets>
+
+                  <fileSet>
+
+                      <directory>${project.build.directory}/../package</directory>
+
+                      <outputDirectory>/</outputDirectory>
+
+                   </fileSet>
+
+          </fileSets>
+
+     </assembly>",5b3470df8982d029e48a4c0d
+How to modify group id and artifact id of pom.xml using script in Job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+How to change group id and artifact id of pom.xml using script in Job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+How to update group id and artifact id of pom.xml using script in Job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+updation of  group id and artifact id of pom.xml using script in Job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+Steps to modify group id and artifact id of pom.xml,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+Modification of  group id and artifact id of pom.xml using script in Job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+changing group id and artifact id of pom.xml,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+script modification of group id and artifact id of pom.xml in job configuration,"Resolution:
+
+Navigate to Configure in Jenkins job page, Add pre-build step and select Execute shell, add the command.
+
+Following are the steps to modify group id and  artifact id of pom.xml file in Job configuration
+
+      1.  Select ""Execute Shell"" option from ""Add pre-build step""
+
+   2. Add below command in provided command area.
+
+               find . -name pom.xml -exec sed -i 's/Order_Orch_Group/it\.cvc\.ciscocommerce\.ccwooccwys2\.ys2oc2 /g' '{}' \; ;
+
+Build Failure due to incorrect POM.XML path
+
+Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+
+",5b3470df8982d029e48a4c0d
+Build failure due to incorrect pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+What to do if build fails due to incorrect pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+build failed due to wrong pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+Steps to rebuild when build fails due to incorrect pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+error due to wrong pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+how to correct pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+build issue for wrong pom.xml path,"Please find the Issue Description:
+
+Build is failing due to incorrect path of pom.xml in Jenkins Configuration.
+
+Resolution:
+
+check the workspace and give the correct path of pom.xml in Root POM of Jenkins Configuration.
+Please refer this document for more information. Please visit the below page for more details.
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_Failure_due_to_incorrect_POMXML_path
+
+",5b3470df8982d029e48a4c0d
+how to enable security scan in jenkins configuration,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+enable security scan,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+security scan enable in jenkins ,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+how to access security scan in jenkins configuration,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+security scan enablement in jenkins configuration,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+security scan enablement ,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+modify security scan,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+change security scan in jenkins,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+allow security scan in jenkins,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+provide security scan in jenkins,"If it is freestyle project, then please select ""Static Security Scan"" from Add build step
+
+If it is a maven project, then please select ""Static security scan"" from Add Post Build Step option in Jenkins configuration
+
+",5b3470df8982d029e48a4c0d
+build is failing due to static security scan,"Issue Description :
+
+Jenkins Build is failing with due to Static Security Scan as shown in below screenshot.
+
+Resolution :
+
+Once we add the Repository URL(code base URL) under SCM details in Jenkins configuration, issue will be resolved.
+
+ ",5b3470df8982d029e48a4c0d
+build error due to static security scan,"Issue Description :
+
+Jenkins Build is failing with due to Static Security Scan as shown in below screenshot.
+
+Resolution :
+
+Once we add the Repository URL(code base URL) under SCM details in Jenkins configuration, issue will be resolved.
+
+ ",5b3470df8982d029e48a4c0d
+build cancelled due to static security scan,"Issue Description :
+
+Jenkins Build is failing with due to Static Security Scan as shown in below screenshot.
+
+Resolution :
+
+Once we add the Repository URL(code base URL) under SCM details in Jenkins configuration, issue will be resolved.
+
+ ",5b3470df8982d029e48a4c0d
+static security scan build error,"Issue Description :
+
+Jenkins Build is failing with due to Static Security Scan as shown in below screenshot.
+
+Resolution :
+
+Once we add the Repository URL(code base URL) under SCM details in Jenkins configuration, issue will be resolved.
+
+ ",5b3470df8982d029e48a4c0d
+build issue in static security scan,"Issue Description :
+
+Jenkins Build is failing with due to Static Security Scan as shown in below screenshot.
+
+Resolution :
+
+Once we add the Repository URL(code base URL) under SCM details in Jenkins configuration, issue will be resolved.
+",5b3470df8982d029e48a4c0d
+"While downloading the jar from artifactory, unauthorized error is coming in build","Resolution :
+Please add jenkins-ci.gen to your respective adam groups which has the access to the artifactory.",5b3470df8982d029e48a4c0d
+"artifactory, unauthorized error coming in build while downloading the jar","Resolution :
+Please add jenkins-ci.gen to your respective adam groups which has the access to the artifactory.",5b3470df8982d029e48a4c0d
+unauthorized error is coming while downloading jar from artifactory ,"Resolution :
+Please add jenkins-ci.gen to your respective adam groups which has the access to the artifactory.",5b3470df8982d029e48a4c0d
+unauthorized issue when downloading the jar from artifactory,"Resolution :
+Please add jenkins-ci.gen to your respective adam groups which has the access to the artifactory.",5b3470df8982d029e48a4c0d
+unauthorized error downloading jar ,"Resolution :
+Please add jenkins-ci.gen to your respective adam groups which has the access to the artifactory.",5b3470df8982d029e48a4c0d
+How to generate CD analytics report from jenkins job?,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+generating cd analytics report from jenkins job,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+report generation of cd analytics from jenkins job,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+how to create cd analytics report from jenkins job,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+creation of cd analytics report,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+produce cd analytics report from jenkins job,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+report of cd analytics from jenkins,"By default, every Jenkins job is enabled for CD analytics report generation, you can access the report from below URL:
+https://cdanalytics.cisco.com/software/home",5b3470df8982d029e48a4c0d
+How to enable jenkins for performing git push operation for new tag creation while performing artifactory release staging build?,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+while performing artifactory release staging build enable jenkins for performing git push operation for new tag creation,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+enbaling jenkins for performing git push operation for new tag creation,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+enable jenkins for performing git push operation,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+how to access jenkins for performing git push operation for new tag creation while doing artifactory release staging build,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+jenkins permission for performing git push operation for new tag creation,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+how to enable jenkins while doing artifactory release staging build ,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+get jenkins access for performing git push operation,"Every activity in Jenkins is been carried by “dftjenkins” generic user
+
+**) Your repository hosted in gitscm.cisco.com, do have provisioned for read only with “dftjenkins” users. So is the reason, when Jenkins build tries for any git push from build, it failed.
+
+**) If you want this git push and tag creation to happen, you have to provide the “dftjenkins” generic user provisioned for your repository with Read/Write permission.
+
+NOTE: Post this change, Jenkins will be authorized to commit your code for every build when any git operation will get called.",5b3470df8982d029e48a4c0d
+Unable to access Workspace in Jenkins,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+Could not access workspace,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+Do not have permissions for workspace,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+How can I get access for workspace,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+How to give permissions for workspace,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+How to give group access for workspace,"Issue Description:
+Issue with “slave Jenkins are getting channel disconnection” and failing the build for accessing the slave workspace content and build gets stuck.
+Resolution:
+Please disconnect the slave and launch it again from Jenkins UI to fix this issue. Please reach out to code-support(mailer list)",5b3470df8982d029e48a4c0d
+Unable to access Git repo (Permission issue),Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+How to access GIT repo,Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+How can I get access for repo,Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+Repo permissions issue,Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+How to give GIT repo access,Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+How to give group access for GIT repo,Make sure that GIT URL starts with https or ssh. (Or) Need to add “dftjenkins”/jenkins-ci.gen group in Bitbucket in project permissions. If this won’t be added then there will be no connection between Jenkins and Bitbucket,5b3470df8982d029e48a4c0d
+Unwanted war file attached with tar.gz,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+Unwanted war file issue,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+How to remove war file,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+How to delete war file from .gz,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+Remove file from .gz,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+Unable to remove generated war file,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+delete war file,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+delete file from gz,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+could not delete file from .gz,"Please ""Wipe out the workspace"" and then unwanted war file(s) will be removed.",5b3470df8982d029e48a4c0d
+Unable to build the project as user doesn't have build access,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+No access for build,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+How can I get build access,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+How to give buid access,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+build permission issue,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+Project build issue,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+getting access to build,"Project needs to be configured with project admin/developer access & user should be part of Active directory (AD) group.
+For creating a new AD group, please find the below steps:-
+1. Please go to URL: https://ds-web.cisco.com/OPDATA/ActiveDirectory/adam/index.pmcgi 
+2. Ensure that the forest is “cisco.com”. If not, you can change it by selecting the dropdown on the top-left corner of the page
+3. In the menu on the left, go to Group and click on Create. Fill in the details and your group will be created in an hour’s time. 
+If User ADAM group is present then add the user ADAM groups in Groups specifying the Administrator and Developer roles.
+Please refer below url for details, https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_build_the_project_as_user_doesnt_have_build_access",5b3470df8982d029e48a4c0d
+How to prevent downloading redundant dependency jar( javax.servlet-api 3.0.1) when projects using eslogger-client custom jar in pom.xml.,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+redundant jar issue,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+How can we avoid duplicate jar dependencies,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+Redundancy for client custom jars,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+How can we avoid redundant custom jars,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+How can we remove repeated depandencies,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+can we avoid downloading duplicate dependency jars,"Please go through below steps,
+1. If this dependency is not required, Please remove this from lib module of pom.xml file.
+2. If this required, Please exclude servlet-api-3.0.1.jar from dependency as below.
+3. You can keep this dependency as is in lib module of pom.xml and exclude javax.servlet:javax.servlet-api-3.0.1.jar in your war pom.xml
+Please go to below URL for details: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_prevent_downloading_redundant_dependency_jar_javaxservletapi_301_when_projects_using_esloggerclient_custom_jar_in_pomxml",5b3470df8982d029e48a4c0d
+Project is not displayed in Continuous Delivery Dashboard,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Cannot see project from dashboard,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Project is not visible from dashboard,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Dashboard project visibility,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Project not there in CDD,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+What can I do to see the project from CDD,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Visibility of project from CDD,"For the project to be displayed in CDD dashboard,the project path should be in a standard format which is :
+Jenkins-->Track name-->Sub folder-->Release folder-->Project name
+",5b3470df8982d029e48a4c0d
+Not able to download jars from artifactory location while building the project,"Please check the URL: https://cisco.jiveon.com/docs/DOC-45943 if required, jars are added into artifactory.
+For further concerns on artifactory, Kindly contact SRA team (sra-sdaas-support@cisco.com).",5b3470df8982d029e48a4c0d
+Unable to download jars,"Please check the URL: https://cisco.jiveon.com/docs/DOC-45943 if required, jars are added into artifactory.
+For further concerns on artifactory, Kindly contact SRA team (sra-sdaas-support@cisco.com).",5b3470df8982d029e48a4c0d
+How to download jars while building,"Please check the URL: https://cisco.jiveon.com/docs/DOC-45943 if required, jars are added into artifactory.
+For further concerns on artifactory, Kindly contact SRA team (sra-sdaas-support@cisco.com).",5b3470df8982d029e48a4c0d
+downloading jars from artifactory location,"Please check the URL: https://cisco.jiveon.com/docs/DOC-45943 if required, jars are added into artifactory.
+For further concerns on artifactory, Kindly contact SRA team (sra-sdaas-support@cisco.com).",5b3470df8982d029e48a4c0d
+Issue with downloading jars while building project,"Please check the URL: https://cisco.jiveon.com/docs/DOC-45943 if required, jars are added into artifactory.
+For further concerns on artifactory, Kindly contact SRA team (sra-sdaas-support@cisco.com).",5b3470df8982d029e48a4c0d
+"Deployment is not happening post Jenkins build, whats wrong?","There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+Post build deployment issue,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+Could not deploy after the project build,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+How can I deploy after the Jenkins build,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+Issue with deploying post build,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+Artifact deploy issue,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+Issue with Artifact deployment by jenkins,"There could be many reasons for for the deployment not taking place post Jenkins build. Those can be:
+
+File type not available: Jenkins not creating the expected file format for the actual deployment to tale place from UDEPLOY tool like *.tar.gz/*.ear/pom.xml file. Please make sure your build is creating the required file type as final package for same. How to create tar.gz file for your project is discussed in another section below.ArtifactID and GroupID definition: User need to make sure, the artifactID and groupID are same as defined in the udeploy configuration of the application. Then only Jenkins will be able to deploy the artifact (the created package) in correct folder under artifactory location. If artifactID or groupID are not matching as with udeploy configuration, the Udeploy will not be able to pick the package for deployment.
+Jenkins build is good, my artifactID and groupID are correct, what next now?
+Reach out to sra-support@cisco.com team for more details/issues from UDeploy tool.",5b3470df8982d029e48a4c0d
+"Am not able to see config/build options in Jenkins, what should I do ?","You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+Could not see build options ,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+Config options are not visible,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+Issue with config or build options,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+Unable to see config options in Jenkins,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+What can I do if I won't see config/build options in Jenkins,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+How can I see config or build options in Jenkins,"You may want to check what access provision has been done for you, to access the Jenkins job content. Since Jenkins job access always got provisioned with provided AD groups during it's creation, check with those provisioned AD groups, if you are part of any of those. You need to be part of GroupAdmin for having the ""Configure"" and ""Build Now"" option, and part of ""developers"" group for ""Build Now"" option.
+You can verify this either by going in ""Groups"" option in your left column of page, or by contacting your ""Project Lead/Srum-Master or Manager"".
+If you are not part of any of those AD group, get yourself added to any one of them depending on your profile requirement from https://adam.cisco.com, search for the group and request for it's membership.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Am_not_able_to_see_configbuild_options_in_Jenkins_what_should_I_do_ for further details.
+",5b3470df8982d029e48a4c0d
+How to enable artifactory deployment from Jenkins during build?," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+Enable artifactory deployment," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+Enable deployment while building," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+Can we enable artifactory deployment from Jenkins during build," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+Deploying artifacts from artifactory," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+Enable deploy artifacts," Please go to Jenkins job configuration
+* Select the drop down option from Post build action ""deploy artifacts from artifactory""
+* Select the repository URL as ""repo-art.cisco.com""
+* ext-release-local option for release and ext-snapshot-local for snaphot build and save the configuration",5b3470df8982d029e48a4c0d
+"""Artifactory Release Staging""  CI job failed with below message","Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+CI job failed,"Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+"Getting error like you are using an old subversion jenkins plugin, please consider upgrading","Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+Build failed while using Artifactory Release Staging.,"Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+Artifactory Release Staging failed,"Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+Issue with Artifact Release Staging,"Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+Artifact Release Staging is failing,"Although you see this error message,the artifacts will be pushed to Release branch in Artifactory. we are working with Cloudbees vendor to resolve this error message issue. we will update you after resolving the issue.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Artifactory_Release_Staging_CI_job_failed_with_below_message for details",5b3470df8982d029e48a4c0d
+Artifactory staging build is failing with error saying SNAPSHOT detected in pom.xml file?,"If you find issue with Artifactory staging where, error says something like this:
+[RELEASE] Release build triggered  > /apps/dftjenkins/bin/git config --get remote.origin.url # timeout=10  > /apps/dftjenkins/bin/git config core.sparsecheckout # timeout=10  > /apps/dftjenkins/bin/git checkout -f GDR_Q2FY17_LAE [RELEASE] Changing POMs to release version [RELEASE] ERROR: Snapshot detected in file '/apps/dftjenkins/jenkins_node/workspace/IT-CVC-Cisco_Commerce/CCW/PRICING/GDR/CCWPRICINGGDRDISCEN/discen-Tomcat7/lae/pom.xml': com.cisco.gdr.ui:GDRSetupUI:16.11.06-SNAPSHOT
+
+**) If you are having multi-stack project configured in Jenkins, you should never configure the job with pre-build step for any renaming of groupID or ArtifactID during the run time of build.
+**) Your POM should have exact the same definition of groupID and artifactID, as provisioned in Stack.",5b3470df8982d029e48a4c0d
+Error: SNAPSHOT detected in pom.xml file,"If you find issue with Artifactory staging where, error says something like this:
+[RELEASE] Release build triggered  > /apps/dftjenkins/bin/git config --get remote.origin.url # timeout=10  > /apps/dftjenkins/bin/git config core.sparsecheckout # timeout=10  > /apps/dftjenkins/bin/git checkout -f GDR_Q2FY17_LAE [RELEASE] Changing POMs to release version [RELEASE] ERROR: Snapshot detected in file '/apps/dftjenkins/jenkins_node/workspace/IT-CVC-Cisco_Commerce/CCW/PRICING/GDR/CCWPRICINGGDRDISCEN/discen-Tomcat7/lae/pom.xml': com.cisco.gdr.ui:GDRSetupUI:16.11.06-SNAPSHOT
+
+**) If you are having multi-stack project configured in Jenkins, you should never configure the job with pre-build step for any renaming of groupID or ArtifactID during the run time of build.
+**) Your POM should have exact the same definition of groupID and artifactID, as provisioned in Stack.",5b3470df8982d029e48a4c0d
+SNAPSHOT issue in pom.xml,"If you find issue with Artifactory staging where, error says something like this:
+[RELEASE] Release build triggered  > /apps/dftjenkins/bin/git config --get remote.origin.url # timeout=10  > /apps/dftjenkins/bin/git config core.sparsecheckout # timeout=10  > /apps/dftjenkins/bin/git checkout -f GDR_Q2FY17_LAE [RELEASE] Changing POMs to release version [RELEASE] ERROR: Snapshot detected in file '/apps/dftjenkins/jenkins_node/workspace/IT-CVC-Cisco_Commerce/CCW/PRICING/GDR/CCWPRICINGGDRDISCEN/discen-Tomcat7/lae/pom.xml': com.cisco.gdr.ui:GDRSetupUI:16.11.06-SNAPSHOT
+
+**) If you are having multi-stack project configured in Jenkins, you should never configure the job with pre-build step for any renaming of groupID or ArtifactID during the run time of build.
+**) Your POM should have exact the same definition of groupID and artifactID, as provisioned in Stack.",5b3470df8982d029e48a4c0d
+Artifact staging build is failing because of snapshot in pom file,"If you find issue with Artifactory staging where, error says something like this:
+[RELEASE] Release build triggered  > /apps/dftjenkins/bin/git config --get remote.origin.url # timeout=10  > /apps/dftjenkins/bin/git config core.sparsecheckout # timeout=10  > /apps/dftjenkins/bin/git checkout -f GDR_Q2FY17_LAE [RELEASE] Changing POMs to release version [RELEASE] ERROR: Snapshot detected in file '/apps/dftjenkins/jenkins_node/workspace/IT-CVC-Cisco_Commerce/CCW/PRICING/GDR/CCWPRICINGGDRDISCEN/discen-Tomcat7/lae/pom.xml': com.cisco.gdr.ui:GDRSetupUI:16.11.06-SNAPSHOT
+
+**) If you are having multi-stack project configured in Jenkins, you should never configure the job with pre-build step for any renaming of groupID or ArtifactID during the run time of build.
+**) Your POM should have exact the same definition of groupID and artifactID, as provisioned in Stack.",5b3470df8982d029e48a4c0d
+Issue with artifactory stage build with message snapshot detected in pom file,"If you find issue with Artifactory staging where, error says something like this:
+[RELEASE] Release build triggered  > /apps/dftjenkins/bin/git config --get remote.origin.url # timeout=10  > /apps/dftjenkins/bin/git config core.sparsecheckout # timeout=10  > /apps/dftjenkins/bin/git checkout -f GDR_Q2FY17_LAE [RELEASE] Changing POMs to release version [RELEASE] ERROR: Snapshot detected in file '/apps/dftjenkins/jenkins_node/workspace/IT-CVC-Cisco_Commerce/CCW/PRICING/GDR/CCWPRICINGGDRDISCEN/discen-Tomcat7/lae/pom.xml': com.cisco.gdr.ui:GDRSetupUI:16.11.06-SNAPSHOT
+
+**) If you are having multi-stack project configured in Jenkins, you should never configure the job with pre-build step for any renaming of groupID or ArtifactID during the run time of build.
+**) Your POM should have exact the same definition of groupID and artifactID, as provisioned in Stack.",5b3470df8982d029e48a4c0d
+Build is failing due to web.xml attribute is required,"User need to specify webxml tag under configuration in pom.xml.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_webxml_attribute_is_required for further details",5b3470df8982d029e48a4c0d
+web.xml issue,"User need to specify webxml tag under configuration in pom.xml.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_webxml_attribute_is_required for further details",5b3470df8982d029e48a4c0d
+build failed because of web xml attribute,"User need to specify webxml tag under configuration in pom.xml.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_webxml_attribute_is_required for further details",5b3470df8982d029e48a4c0d
+Is web. Xml attribute required during build,"User need to specify webxml tag under configuration in pom.xml.
+Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_webxml_attribute_is_required for further details",5b3470df8982d029e48a4c0d
+"Jenkins job build compilation fails saying compilation error, what to do?","There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Jenkins build compilation error,"There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Compilation failing with error,"There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Build compilation failing,"There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Jenkins job build compilation error,"There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Getting compilation error for jenkins build,"There could be many reasons for this compilation error in your Jenkins job build. it can be possible due to:
+**) Actual Code Compilation
+There might be the chance when your actual code is not getting compiled properly, and so is the reason it's getting failed in Jenkins too. Best approach will be, always try to execute your build in your local machine/workspace before triggering the build from Jenkins for compiling new changes. Sometimes, you had to wipe out your .m2 repository content from your workspace to make sure, all your dependent package is getting downloaded during the build.
+
+**) Missing dependent package
+There might be a chance when your defined dependency didn't get downloaded during the build, either it was not available to download, or due to connection drop. Best approach will be to check the error for the missing dependency jar file and verify from the repository it's getting download from If it's due to connection drop, then you may want to wipe out your workspace and trigger a clean build. 
+
+**) Corrupted dependent package got downloaded during build compilation
+Quick workaround will be to wipe-out the workspace and trigger a fresh build, this will make sure that your broken package is getting downloaded properly this time
+NOTE:  There might be chance that the .m2 repository of the Jenkins nodes got affected with dependents content and it's not getting fixed by workspace wipeout. During those scenarios, just follow below instaructions:
+Go to Jenkins Job configuration page, Build section where maven configuration has been defined, click on Advanced option and select ""Use Private Maven Repository"", select option as ""Local to Workspace"" from drop down list, and save the configuration. Now trigger a new build post wiping out workspace. Please go to URL: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Jenkins_job_build_compilation_fails_saying_compilation_error_what_to_do for further details
+",5b3470df8982d029e48a4c0d
+Build is failing due to duplicate in the reactor,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+Duplicate artifact ID issue,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+Build failed because of duplicate artifacts,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+Duplicate artifact ID in child pom.xml,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+Redundancy issue in pom.xml file,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+Same artifact ID in pom file,"Artifact ID should not be the same in child pom.xml.
+Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_duplicate_in_the_reactor
+for further details",5b3470df8982d029e48a4c0d
+What are the steps for doing Artifactory staging/ Release build from Jenkins ?,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Issue with staging artifactory build,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Procedure for staging artifactory build,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Steps for doing release build in Jenkins,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Release build procedure ,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Steps to be followed for staging artifactory build,"Please refer this url for the steps to be followed for triggering the staging artifactory build
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_What_are_the_steps_for_doing_Artifactory_staging_Release_build_from_Jenkins_",5b3470df8982d029e48a4c0d
+Build is failing due to permgen size exception,"Step 1 :  Increase MaxPermSize in Maven_OPTS of job configuration
+Step 2 : Need to add property ""-Xms512m -Xmx2048m -XX:MaxPermSize=1024m "" in Maven_Opts tab of Build configuration.
+Please refer url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_permgen_size_exception
+for further details
+",5b3470df8982d029e48a4c0d
+permgen exception issue,"Step 1 :  Increase MaxPermSize in Maven_OPTS of job configuration
+Step 2 : Need to add property ""-Xms512m -Xmx2048m -XX:MaxPermSize=1024m "" in Maven_Opts tab of Build configuration.
+Please refer url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_permgen_size_exception
+for further details
+",5b3470df8982d029e48a4c0d
+Build failed because of permgen size issue,"Step 1 :  Increase MaxPermSize in Maven_OPTS of job configuration
+Step 2 : Need to add property ""-Xms512m -Xmx2048m -XX:MaxPermSize=1024m "" in Maven_Opts tab of Build configuration.
+Please refer url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_permgen_size_exception
+for further details
+",5b3470df8982d029e48a4c0d
+Permgen size exception,"Step 1 :  Increase MaxPermSize in Maven_OPTS of job configuration
+Step 2 : Need to add property ""-Xms512m -Xmx2048m -XX:MaxPermSize=1024m "" in Maven_Opts tab of Build configuration.
+Please refer url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_permgen_size_exception
+for further details
+",5b3470df8982d029e48a4c0d
+MaxPermSize issue during configuration,"Step 1 :  Increase MaxPermSize in Maven_OPTS of job configuration
+Step 2 : Need to add property ""-Xms512m -Xmx2048m -XX:MaxPermSize=1024m "" in Maven_Opts tab of Build configuration.
+Please refer url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_permgen_size_exception
+for further details
+",5b3470df8982d029e48a4c0d
+After sonar upgrade sonar metrics are not getting in spark notification,Please reach out to code team as there are some modifications that need to be done from CDA end in order to get all the metrics to get displayed in spark notification.,5b3470df8982d029e48a4c0d
+spark notification issue,Please reach out to code team as there are some modifications that need to be done from CDA end in order to get all the metrics to get displayed in spark notification.,5b3470df8982d029e48a4c0d
+Issue with sonar metrics,Please reach out to code team as there are some modifications that need to be done from CDA end in order to get all the metrics to get displayed in spark notification.,5b3470df8982d029e48a4c0d
+Unable to get sonar metrics in spark,Please reach out to code team as there are some modifications that need to be done from CDA end in order to get all the metrics to get displayed in spark notification.,5b3470df8982d029e48a4c0d
+Could not get sonar upgrade  metrics in notification,Please reach out to code team as there are some modifications that need to be done from CDA end in order to get all the metrics to get displayed in spark notification.,5b3470df8982d029e48a4c0d
+Build is failing due to Unmappable character for encoding UTF8,"Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_Unmappable_character_for_encoding_UTF8
+and add code snippet in build.xml
+Also you can try to build your project using Private Maven Repository .. Please refer to the Private Maven Repository section in the attached document.",5b3470df8982d029e48a4c0d
+Unmappable character issue,"Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_Unmappable_character_for_encoding_UTF8
+and add code snippet in build.xml
+Also you can try to build your project using Private Maven Repository .. Please refer to the Private Maven Repository section in the attached document.",5b3470df8982d029e48a4c0d
+Build failed because of unmappable char,"Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_Unmappable_character_for_encoding_UTF8
+and add code snippet in build.xml
+Also you can try to build your project using Private Maven Repository .. Please refer to the Private Maven Repository section in the attached document.",5b3470df8982d029e48a4c0d
+Build is failing for unmappable chars,"Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_Unmappable_character_for_encoding_UTF8
+and add code snippet in build.xml
+Also you can try to build your project using Private Maven Repository .. Please refer to the Private Maven Repository section in the attached document.",5b3470df8982d029e48a4c0d
+Unmappable characters causing issue during build,"Please go to url: https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_Unmappable_character_for_encoding_UTF8
+and add code snippet in build.xml
+Also you can try to build your project using Private Maven Repository .. Please refer to the Private Maven Repository section in the attached document.",5b3470df8982d029e48a4c0d
+"SonarQube scan failed for error ""[ERROR] GC overhead limit exceeded -> [Help 1]""","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"What is ""[ERROR] GC overhead limit exceeded -> [Help 1]"" error","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+What is SonarQube failed error,"Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"How to resolve SonarQube failed error for ""[ERROR] GC overhead limit exceeded -> [Help 1]""","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"Can SonarQube failed error ""[ERROR] GC overhead limit exceeded -> [Help 1]"" be resolved?","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+How can SonarQube failed error be resolved,"Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"Way to resolve SonarQube ""[ERROR] GC overhead limit exceeded -> [Help 1]"" error","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"Where can I find solution for ""[ERROR] GC overhead limit exceeded -> [Help 1]"" error","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+"What can be done for ""[ERROR] GC overhead limit exceeded -> [Help 1]"" error for SonarQube","Refer to the below URL for details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SonarQube_scan_failed_for_error_ERROR_GC_overhead_limit_exceeded__Help_1",5b3470df8982d029e48a4c0d
+Unable to execute build on Jenkins,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+How to execute build on Jenkins,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+Why am I unable to execute build on Jenkins,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+Way to execute build on Jenkins,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+Jenkins build execution,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+How is Jenkins build execution done?,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+What is to be done to execute build on Jenkins,"Resolution :
+
+Need to add jenkins-ci.gen to their respective adam groups",5b3470df8982d029e48a4c0d
+Acquiring compatability with JDK 1.5,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+Way to acquire compatibility with JDK 1.5,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+How to acquire commpatibility with JDK 1.5,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+JDK 1.5 compatibility,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+Compatibility for JDK1.5,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+How to achieve compatibility with JDK 1.5,"Need to make changes under JDK version in POM.xml and should select JDK version as default in Jenkins Configuration.
+For details check the URL given below:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Acquiring_compatability_with_JDK_15",5b3470df8982d029e48a4c0d
+Not able to checkout code from Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+How to checkout code from Git?,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Unable to checkout code from Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Ways to checkout code from Gi,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Checkout code from Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Checking out code from Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Code checkout Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+How to enable code checkout from Git,"If project Git URL has ""http"" in Jenkins , It will not check out the code. Replace ""http"" with ""ssh"".
+For details check the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_Git",5b3470df8982d029e48a4c0d
+Not able to checkout code from SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+Acquiring compatability with SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+Way to acquire compatibility with SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+How to acquire commpatibility with SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+SVN compatibility,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+Compatibility for SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+How to achieve compatibility with SVN,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+How is compatibility acquired with JDK 1.5,"Need to add jenkins-ci.gen to their respective adam groups.
+For details, check the below URL:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Not_able_to_checkout_code_from_SVN",5b3470df8982d029e48a4c0d
+Build is failing due to user id 'xxxxxxx' is too big.,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+User id  build failing,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+Build failing due to user id,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+what to do when the build is failing because user id is too big,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+How to avoid build failing error due to big user id,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+Failing of build due to big user id,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+big user id build fail error,"Need to add below tag in maven-assembly-plugin under configuration tag in pom.xml
+For details, check the below URL
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Build_is_failing_due_to_user_id_xxxxxxx_is_too_big",5b3470df8982d029e48a4c0d
+Maven version is not found while building the project,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+Maven version unknown,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+Maven version is missing while building the project,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+How to select maven version while building the project,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+Maven version not found,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+Maven missing,"Resolution :
+Select maven version from maven section in Jenkins Configuration.
+Please refer to the following link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Maven_version_is_not_found_while_building_the_project",5b3470df8982d029e48a4c0d
+Findbugs not able to compile the sources/binaries while building the project,"Issue Description:
+
+It is caused by: org.sonar.api.utils.SonarException: Findbugs needs sources to be compiled.
+
+ 
+
+Resolution:
+
+In this case please check your compiled classes location correctly specified or not in build script.
+
+Note: - To avoid this error please provide the specific targets/goals you want to process during project build.",5b3470df8982d029e48a4c0d
+Do findbugs need sources to be compiled,"Issue Description:
+
+It is caused by: org.sonar.api.utils.SonarException: Findbugs needs sources to be compiled.
+
+ 
+
+Resolution:
+
+In this case please check your compiled classes location correctly specified or not in build script.
+
+Note: - To avoid this error please provide the specific targets/goals you want to process during project build.",5b3470df8982d029e48a4c0d
+What is required for findbugs to compile ,"Issue Description:
+
+It is caused by: org.sonar.api.utils.SonarException: Findbugs needs sources to be compiled.
+
+ 
+
+Resolution:
+
+In this case please check your compiled classes location correctly specified or not in build script.
+
+Note: - To avoid this error please provide the specific targets/goals you want to process during project build.",5b3470df8982d029e48a4c0d
+Findbugs compilation,"Issue Description:
+
+It is caused by: org.sonar.api.utils.SonarException: Findbugs needs sources to be compiled.
+
+ 
+
+Resolution:
+
+In this case please check your compiled classes location correctly specified or not in build script.
+
+Note: - To avoid this error please provide the specific targets/goals you want to process during project build.",5b3470df8982d029e48a4c0d
+Sources for compilation of findbugs during build ,"Issue Description:
+
+It is caused by: org.sonar.api.utils.SonarException: Findbugs needs sources to be compiled.
+
+ 
+
+Resolution:
+
+In this case please check your compiled classes location correctly specified or not in build script.
+
+Note: - To avoid this error please provide the specific targets/goals you want to process during project build.",5b3470df8982d029e48a4c0d
+To mask the password while building the parameterized job,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+How to mask password during a parameterized job,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+Masking password while building a parameterized job,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+Parameterized job masking password,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+Procedure to mask a password while parameterized job building,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+Can password be masked while building a paramterized job,"Resolution:
+
+This issue can be resolved by using  “Password Parameter” option in the ""parameterized build"" section to mask the password.",5b3470df8982d029e48a4c0d
+"If jacoco task is defined in build.xml and build is failing with this error because Jenkins is not able to locate it,Problem: failed to create task or type","Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+jacoco task build failing,"Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+why does failed to create task or type problem occur,"Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+jacoco task build.xml,"Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+jacoco task error,"Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+build failing error jacoco task,"Resolution :
+
+Define the ""classpath"" in build.xml to fix this issue,
+
+<classpath path=""${basedir}/jacoco/jacocoant.jar""/>",5b3470df8982d029e48a4c0d
+Unable to find package java.lang in classpath or bootclass path (or) If local JDK version is not matching with Jenkins JDK version,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+Error in finding java.lang,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+Local JDK version is not matching with Jenkins JDK version,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+local JDK version and Jenkins JDK version,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+java.lang classpath or bootclass path error,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+Jenkins JDK version error ,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+java.lang package error,"Resolution:
+
+Need to add boot classpath plugin in pom file under plugins tag in pom(<bootclasspath>/apps/dftjenkins/local/java/jdk1.5.0_22/jre/lib/rt.jar</bootclasspath>).
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Unable_to_find_package_javalang_in_classpath_or_bootclass_path_or_If_local_JDK_version_is_not_matching_with_Jenkins_JDK_version",5b3470df8982d029e48a4c0d
+How to enable spark Notification for Jenkins and SonarQube,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Enabling spark notification,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Spark notification for Jenkins,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Spark notification for SonarQube,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Jenkins and SonarQube spark notification,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Jenkins Spark notification,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+SonarQube spark notification,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+enablement of spark notification for Jenkins and SonarQube,"Resolution:
+
+Spark Room Id should be given in Jenkins Configuration as shown in the screenshot below. Make sure that the room is “Locked” before the build is started as shown in screenshot.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_enable_spark_Notification_for_Jenkins_and_SonarQube",5b3470df8982d029e48a4c0d
+Need to change Git URL of project,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+Changing Git URL of project,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+Git url of Project,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+Project Git URL,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+How to chane Git URL of project,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+Changing Git URL,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+Altering Git URL of a project,"Resolution :
+
+Copy clone URL from Bitbucket repository and paste the same in SCM section of Jenkins configuration.
+
+example URL : ssh://git@gitscm.cisco.com/csit/iservices-soaservices.git",5b3470df8982d029e48a4c0d
+How to add multiple SVN Repo paths for a free style projects,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+Adding multiple SVN Repo paths,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+SVN Repo paths for a free style projects,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+SVN Repo paths addition,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+In which way are multiple SVN Repo paths added for a free style project,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+Free style projects SVN Repo paths addition,"Resolution:
+
+Add repo paths under the Source Code Management as shown below. After adding first path click on “Add more locations”, remove “.” in the local module directory for any one of the Repository URL’s so that it will take the entire folder instead of files.
+
+Please refer to the following for a detailed description:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_add_multiple_SVN_Repo_paths_for_a_free_style_projects",5b3470df8982d029e48a4c0d
+"Jenkins is not able to fetch the latest code from SCM repository, what's going wrong?","There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+Jenkins is not able to fetch the latest code ,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+SCM repository code fetching error,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+Why is Jenkins not able to fetch latest code from SCM repository,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+latest code fetching by Jenkins error,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+How to make Jenkins fetch latest code from SCM repository,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+Jenkins SCM repository error,"There could be many reasons for this issue, below are few which might be responsible for it:
+**) Provided git/svn URL in Jenkins job configuration is wrong:
+Check for the correct URL and put in the Jenkins job configuration page. If you are using http protocol for GIT URL, change that to ssh (make sure to remove the context ""scm"" after gitscm.cisco.com, when using ssh and put user name as ""git"")
+e.g.if your git repo URL looks like this https://gitscm.cisco.com/scm/gp/adp12c.git , then use this ssh://gitscm.cisco.com/scm/gp/adp12c.git
+
+ ",5b3470df8982d029e48a4c0d
+How to edit/update a Jenkins job Configuration page ?,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Jenkins configuration page updation ,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Editing a Jenkins job configuration page,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Updating Jenkins job configuration page,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Jenkins job configuration page,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Updating a Jenkins job config page,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+Jenkins job config page editing,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+How can a Jenkins job configuration page be edited,"Only User, whose profile has been configured as Group-Admin or acting administrator can configure any given Jenkins job. All they have to do is, click on Configure option, after visiting the Jenkins job URL:
+Please refer to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_editupdate_a_Jenkins_job_Configuration_page_",5b3470df8982d029e48a4c0d
+How to generate Static Security Analysis report for your Jenkins Project Code ?,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Generating static security Analysis report for Jenkins project code,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Generation of Static Scurity Analysis,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Static Security Analysis report ,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Static Security Analysis report for Jenkins project code,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Jenkins project code Static Security Analysis report ,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+What is the process of generating Static Security Analysis report for Jenkins project code,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+Procedure for Static security Analysis report generation,"Jenkins job configuration page comes with an action item as ""Add Post Build step"", with an option ""Static Security Scan"". Select that option and provide the necessary details as asked in section(Spark Room Id) . You can get more about how to fill those options in: BitBucket ""Cisco Spark Push Notification"" Plugin Configuration.
+For more information, go to the below link:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_generate_Static_Security_Analysis_report_for_your_Jenkins_Project_Code_",5b3470df8982d029e48a4c0d
+SCAVA activity is disabled in CDA ," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+SCAVA activity," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+Why is SCAVA activity disabled in CDA," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+When will SCAVA activity be enabled in CDA," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+CDA SCAVA activity disabled," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+disablement of CDA SCAVA activity," As we are working on security analytics in CDA, we have disabled the SCAVA for all softwares. We will update you once we enabled SCAVA activity in CDA.",5b3470df8982d029e48a4c0d
+"Sonar analysis is failing with ""Unable to blame file"" error","Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+Unable to blame file error,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+Sonar analysis failing,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+Error in sonar analysis,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+Why is Sonar analysis failing,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+What to do when Sonar analysis is failing,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+How to avoid Sonar analysis failing error,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+What is unable to blame file error,"Add ""“-Dsonar.scm.disabled=True"" in SonarQube additional properties.
+Refer to the following link for a detailed description
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Sonar_analysis_is_failing_with_Unable_to_blame_file_error",5b3470df8982d029e48a4c0d
+Unable to see Artifactory Release Staging in Jenkins," Please check the option ""Enable artifactory release management"" in job configuration to see Artifactory Release Staging.",5b3470df8982d029e48a4c0d
+Why am I not able to see Artifactory Release Staging in Jenkins," Please check the option ""Enable artifactory release management"" in job configuration to see Artifactory Release Staging.",5b3470df8982d029e48a4c0d
+Artificial release staging in Jenkins," Please check the option ""Enable artifactory release management"" in job configuration to see Artifactory Release Staging.",5b3470df8982d029e48a4c0d
+How to see Artifactory release staging in Jenkins," Please check the option ""Enable artifactory release management"" in job configuration to see Artifactory Release Staging.",5b3470df8982d029e48a4c0d
+What to do when I am unable to see Artifactory release staging in Jenkins," Please check the option ""Enable artifactory release management"" in job configuration to see Artifactory Release Staging.",5b3470df8982d029e48a4c0d
+Not able to edit GIT URL in Jenkins job configuration page,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+How to edit GIT URL in Jenkins job configuration page,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+GIT URL Jenkins job configuration page,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+Jenkins job config GIT URL editing,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+Error in editing GIT URL ,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+Error in editing GIT URL in Jenkins job configuration page,"Try to clear your cache and cookies from your browser, or use firefox browser to for accessing the URL.",5b3470df8982d029e48a4c0d
+"Security scan is failing with error ""java.lang.NullPointerException"" ", Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+Security scan error, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+Why is my security scan being failed, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+java.lang.NullPointerException error while security scan, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+Nullpointer exception for security scan, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+Security scan null pointer exception, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+What to do when security scan is failing with nullpointer exception, Security scan doesn't support Multiple SCM. Please create a new Jenkins job with single SCM and configure the static security scan.,5b3470df8982d029e48a4c0d
+Workload for PL/SQL ,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+What is the workload for PL/SQL,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+How to know the workload for PL/SQL,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+PL/SQL workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+From where do I get to kow about workload for PL/SQL,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+Understanding PL/SQL workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+PL/SQL workload means?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_PLSQL",5b3470df8982d029e48a4c0d
+Code Tester for PL/SQL Unit Testing ,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+PL/SQL unit testing code tester,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+Information on code tester for PL/SQL unit testing,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+What is code tester for PL/SQL Unit testing,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+Understanding code tester for PL/SQL unit testing,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+Code Tester PL/SQL,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+How to know Code tester for PL/SQL Unit testing,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Code_Tester_for_PLSQL_Unit_Testing",5b3470df8982d029e48a4c0d
+Workload for Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Workload for Nodejs ,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+What is the workload for Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+How to know the workload for Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Nodejs project workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Nodejs proj workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+From where do I get to kow about workload for Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Understanding Nodejs projects workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Nodejs project workload means?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_Nodejs_projects",5b3470df8982d029e48a4c0d
+Workload for Angular+Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Workload for Angular+Nodejs ,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+What is the workload for Angular+Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+How to know the workload for Angular+Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Angular+Nodejs project workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Angular+Nodejs proj workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+From where do I get to kow about workload for Angular+Nodejs projects,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Understanding Angular+Nodejs projects workload,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Angular+Nodejs project workload means?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Workload_for_AngularNodejs_projects",5b3470df8982d029e48a4c0d
+Manage PL/SQL code with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+How to manage PL/SQL code with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+Managing PL/SQL code using GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+Can we manage PL/SQL code with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+PL/SQL code with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+GIT PL/SQL code management,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+Management of PL/SQL code with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+PL/SQL code management with GIT,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_Manage_PLSQL_code_with_GIT",5b3470df8982d029e48a4c0d
+SQL Developer User's Guide,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+User guide for SQL Developer,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+Where do I get user guide for SQL Developer,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+How to get User guide for SQL Developer?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+How to get SQL developer user guide?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+Where is SQL developer user guide present?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+Where is SQL Developer user guide located?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+How do I access user guide for SQL Developer?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_SQL_Developer_Users_Guide",5b3470df8982d029e48a4c0d
+How to build the Jenkins Job Automatically?,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+Building Jenkins job automatically,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+Can we build the Jenkins job automatically,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+How can Jenkins job be built automatically,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+Automatic Jenkins job building,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+Building an automatic jenkins job,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d
+Can an automatic Jenkins job be built,"Refer to the below URL for complete details:
+https://cisco.jiveon.com/docs/DOC-1734053#jive_content_id_How_to_build_the_Jenkins_Job_Automatically",5b3470df8982d029e48a4c0d

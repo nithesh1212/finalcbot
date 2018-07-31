@@ -49,10 +49,16 @@ const routes: Routes = [
     path: 'train-intent/:intent_id', component: TrainComponent,
   },
   {
-    path: 'settings', component: SettingsComponent,
+    resolve: {
+			bot: BotResolverService,
+		},
+    path: 'settings/:botId', component: SettingsComponent,
   },
   {
-    path: 'chat', component: ChatComponent,
+    resolve: {
+			bot: BotResolverService,
+		},
+    path: 'chat/:botId', component: ChatComponent,
   }
 ];
 

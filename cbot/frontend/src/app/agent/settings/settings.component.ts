@@ -4,6 +4,8 @@ import { FormGroup, FormBuilder, FormArray } from '@angular/forms';
 import {IntentService} from '../../services/intent.service'
 import {AgentsService} from '../../services/agents.service'
 import { UtilsService } from '../../services/utils.service';
+import { ActivatedRoute, Params, Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-settings',
@@ -12,14 +14,14 @@ import { UtilsService } from '../../services/utils.service';
 })
 export class SettingsComponent implements OnInit {
 
-  
+  botId;
   fileToUpload: File = null;
   config_form =  this.fb.group({
     "confidence_threshold":[]
   });
 
   constructor(private intentService:IntentService,private agent_service:AgentsService,  
-    public fb: FormBuilder,private utilsService:UtilsService) { }
+    public fb: FormBuilder,private utilsService:UtilsService,private _activatedRoute: ActivatedRoute) { }
 
   code = `
   
@@ -30,11 +32,8 @@ export class SettingsComponent implements OnInit {
   </script>
   `
   ngOnInit() {
-    this.agent_service.get_config().then(
-    (result)=>{
-      this.config_form.setValue(result);
-    }
-    )
+    this._activatedRoute.params.subscribe(PARAMETERS=> this.botId= PARAMETERS.botId);
+    console.log(this.botId);
   }
 
   threshold_value_changed(){
@@ -54,7 +53,7 @@ export class SettingsComponent implements OnInit {
 
 uploadFileToActivity() {
   this.utilsService.displayLoader(true)
-  this.intentService.importIntents(this.fileToUpload).then ((result)=>{
+  this.intentService.importIntents(this.fileToUpload, this.botId).then ((result)=>{
     this.utilsService.displayLoader(false)
     console.log(result)
   })

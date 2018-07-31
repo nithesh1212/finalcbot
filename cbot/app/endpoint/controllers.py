@@ -18,7 +18,7 @@ endpoint = Blueprint('api', __name__, url_prefix='/api')
 # Loading ML Models at app startup
 from app.nlu.intent_classifer import IntentClassifier
 
-with app.app_context():
+'''with app.app_context():
     PATH = "{}/{}".format(app.config["MODELS_DIR"],
                           app.config["INTENT_MODEL_NAME"])
 
@@ -27,8 +27,9 @@ with app.app_context():
 
     synonyms = get_synonyms()
     entity_extraction = EntityExtractor(synonyms)
-    app.logger.info("Intent Model loaded.")
+    app.logger.info("Intent Model loaded.")'''
 
+sentence_classifier = IntentClassifier()
 
 # Request Handler
 @endpoint.route('/v1', methods=['POST'])
@@ -56,14 +57,31 @@ def api():
     :param json:
     :return json:
     """
+
+
     request_json = request.get_json(silent=True)
     result_json = request_json
+    botId = result_json["botId"]
+    session.__setattr__('botId',botId)
+    PATH = "{}/{}".format(app.config["MODELS_DIR"],
+                          botId+".model")
+
+
+    sentence_classifier.load(PATH)
+
+    synonyms = get_synonyms()
+    entity_extraction = EntityExtractor(synonyms)
+    app.logger.info("Intent Model loaded.")
+
+    print(result_json)
 
     if request_json:
 
         context = {}
         context["context"] = request_json["context"]
-
+        if request_json['role']:
+            session.__setattr__('role', request_json["role"])
+            print(role)
         if app.config["DEFAULT_WELCOME_INTENT_NAME"] in request_json.get(
                 "input"):
             intent = Intent.objects(
@@ -203,7 +221,7 @@ def api():
         return abort(400)
 
 
-def update_model(app, message, **extra):
+def update_model(app,botId, **extra):
     """
     Signal hook to be called after training is completed.
     Reloads ml models and synonyms.
@@ -212,6 +230,10 @@ def update_model(app, message, **extra):
     :param extra:
     :return:
     """
+
+    PATH = "{}/{}".format(app.config["MODELS_DIR"],
+                          botId+ ".model")
+
     sentence_classifier.load(PATH)
     synonyms = get_synonyms()
     global entity_extraction
@@ -224,6 +246,18 @@ from app.nlu.tasks import model_updated_signal
 model_updated_signal.connect(update_model, app)
 
 from app.agents.models import Bot
+from requests import session
+@endpoint.route('/getUserRole', methods=['GET'])
+def role():
+    try:
+        role = session.__getattribute__('role')
+        print(role)
+    except:
+
+        res= {"role" : "invalid"}
+        return json.dumps(res)
+    res = {"role" : role}
+    return json.dumps(res)
 
 
 def predict(sentence):
@@ -237,5 +271,10 @@ def predict(sentence):
     print("Bot",bot)
     predicted = sentence_classifier.predict(sentence)
     print("Predicted",predicted)
-    app.logger.info("predicted intent %s", predicted)
+    #if predicted["confidence"] > 0.5:
+     #   intents = Intent.objects(intentId=app.config["DEFAULT_FALLBACK_INTENT_NAME"])
+      #  print(intents)
+       # return intents.first().id, 0
+   # app.logger.info("predicted intent %s", predicted)
+    #else:
     return predicted["intent"], predicted["confidence"]

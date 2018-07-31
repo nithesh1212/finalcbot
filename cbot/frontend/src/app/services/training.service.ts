@@ -15,8 +15,8 @@ export class TrainingService {
     return this.http.get(environment.applicationUrl + `train/${intent_id}/data`).toPromise();
   }
 
-  trainModels() {
-    return this.http.post(environment.applicationUrl + `nlu/build_models`, {}).toPromise();
+  trainModels(botId) {
+    return this.http.post(environment.applicationUrl + `nlu/build_models/${botId}`, {}).toPromise();
   }
 
 }
